@@ -22,6 +22,9 @@ class BottomNavigationWidget extends StatelessWidget {
             unselectedItemColor: Colors.grey,
             selectedIconTheme: const IconThemeData(color: Colors.white),
             unselectedIconTheme: const IconThemeData(color: Colors.grey),
+            selectedLabelStyle:
+                const TextStyle(fontSize: 11), // Reduced text size
+            unselectedLabelStyle: const TextStyle(fontSize: 9), // R
             items: [
               BottomNavigationBarItem(
                 icon: Icon(Icons.home),
